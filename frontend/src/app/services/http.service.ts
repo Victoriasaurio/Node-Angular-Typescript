@@ -26,6 +26,8 @@ export class HttpService {
    * <Technology> Hace referencia al tipo objeto que será retornado.
    */
   public searchTechnology(query: string) {
-    return this._http.get<Technology[]>(this.baseUrl + "/technology/search/" + query);
+    return this._http.get<Technology[]>(
+      this.baseUrl + "/technology/search/" + query
+    );
   }
 }
