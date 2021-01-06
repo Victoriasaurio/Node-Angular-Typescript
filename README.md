@@ -12,3 +12,9 @@ Don't forget to install dependencies with the command <br>
     - npm start
     - npm run dev
     - npm run seed
+
+Crear un nuevo componente de Angular **ng generate component components/technologyCard o ng g c components/technologyCard** <br>
+
+Crear sevicios en Angular **ng g s services/http** <br>
+
+Navbar **ng g c shared/navbar**
