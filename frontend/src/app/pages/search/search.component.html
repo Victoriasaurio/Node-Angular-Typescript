@@ -1,0 +1,10 @@
+<h1>Searching: <small>{{ query }}</small></h1>
+
+<!--Se despliega cuando no existen coincidencias-->
+<div class="row" *ngIf="technologies.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            There's not technologies with this pattern: {{ query }}
+        </div>
+    </div>
+</div>
